@@ -30,6 +30,12 @@ html,body{
 	background:#111;
 }
 
+.boxed {
+  padding : .5em 0 0 0;
+ width : 5em;
+ background-color: #fff;
+}
+
 html{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -94,4 +100,152 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+.louji {
+  left: 0;
+  line-height: 800px;
+  margin-top: -80px;
+  position: absolute;
+  text-align: center;
+  top: 60%;
+  font-size: 100px;
+  width: 100%;
+}
+
+.louji1{
+  color: white;
+  font-size: 100px;
+
+}
+.ls{
+  color: white;
+  font-size: 50px;
+  line-height: 80px;
+  margin-top: -20px;
+}
+@media(max-width: 599px) {
+    .louji {
+      left: 0;
+      line-height: 20px;
+      margin-top: 0px;
+      font-size: 60px;
+      width: 100%;
+    }
+    .louji1{
+      color: white;
+      font-size: 40px;
+       margin-top: 70px
+    }
+    .ls{
+      color: white;
+      font-size: 50px;
+      line-height: 70px;
+      margin-top: 80px;
+    }
+  }
+
+
+.button-container {
+  display: flex;
+  margin: 60px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  overflow: hidden;
+  margin: 10px;
+  padding: 12px 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: all 150ms linear;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: none;
+  text-transform: capitalize;
+  color: #fff;
+  border: 0 none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 160px;
+  box-shadow: 2px 5px 10px var(--color-smoke);
+}
+.button:hover {
+  transition: all 150ms linear;
+  opacity: 0.85;
+}
+.button:active {
+  transition: all 150ms linear;
+  opacity: 0.75;
+}
+.button:focus {
+  outline: 1px dotted #959595;
+  outline-offset: -4px;
+}
+
+.button.-regular {
+  color: #202129;
+  background-color: #f2f2f2;
+}
+.button.-regular:hover {
+  color: #202129;
+  background-color: #e1e2e2;
+  opacity: 1;
+}
+.button.-regular:active {
+  background-color: #d5d6d6;
+  opacity: 1;
+}
+
+.button.-dark {
+  color: var(--color-snow);
+  background: var(--color-dark);
+}
+.button.-dark:focus {
+  outline: 1px dotted white;
+  outline-offset: -4px;
+}
+
+.button.-green {
+  color: var(--color-snow);
+  background: var(--color-grass);
+}
+
+.button.-blue {
+  color: var();
+  background: #6495ed;
+}
+
+.button.-salmon {
+  color: var(--color-snow);
+  background: var(--color-salmon);
+}
+
+.button.-sun {
+  color: #f15c5c;
+  background: var(--color-sun);
+}
+
+.button.-alge {
+  color: #e7ff20;
+  background: var(--color-alge);
+}
+
+.button.-flower {
+  color: #fe8cdf;
+  background: var(--color-flower);
+}
+
 

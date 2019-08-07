@@ -24,6 +24,11 @@
             <link rel="stylesheet" media="screen" href="css/style.css">
             <script src="vendor/modernizr.js"></script>
             <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+
     </head>
     <body>
     <!--header-->      
@@ -38,10 +43,11 @@
                                     <ul>
                                         <li class="current"><a href="#particles-js">Home</a></li>
                                         <li><a href="#about">About</a></li>
-                                        <li><a href="#schedule">Schedule</a></li>
+                                        <li><a href="#schedule">Events</a></li>
                                         <li><a href="#gallery">Gallery</a></li>
-                                        <li><a href="#sponsors">Sponsors</a></li>
-                                        <li><a href="#contacts">Contact Us</a></li>
+                                        <li><a href="#contact">Contact Us</a></li>
+                                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe3joIGn9o5RfKnRMtqnvQQJ8rtCHdjxFYgJzUHVRr_1cEqqg/viewform?usp=sf_link">Register</a></li>
+
                                     </ul>
                                 </div>
                             </nav>
@@ -53,18 +59,20 @@
     <!--End of Header-->
     <!--Start of the Particles-->
     <div id="particles-js">
-            <div class="container">
-                    <div class="jx-event-box ">
-                        <div class="jx-event-date">
-                            <div class="jx-event-day">17</div>
-                            <div class="jx-event-month jx-uppercase">aug 2019</div>
+            <div class="container-fluid">
+                    <div class="louji">
+                            <h3  style="color: white;font-size: 50px;  line-height: 100px;margin-top: -300px;">A.R.M.E</h3>
+                            <h4 style="color: white;font-size: 50px;">Presents</h4>
                         </div>
-                        <div class="jx-event-title-box ">
-                            <div class="jx-event-pretitle">National level Symposium</div>
-                            <div class="jx-event-title">Torq 2k19</div>
-                            <div class="jx-event-location">Loyola ICAM College of Engineering and Technology</div>
-                        </div>
-                    </div>
+                            <div class="louji">
+                                         <h3  style="color: white; margin-top: -120px">TORQ 2k19</h3></h3>
+                            </div>
+                            <div class="louji">
+                                <h3  style="color: white;font-size: 50px;  line-height: 50px;margin-top: -60px;">National Level Technical Symposium</h3>
+                            </div>
+                            <div class="louji">
+                                    <h3 class="ls" >Department of Mechanical Engineering</h3>
+                                </div>
             </div>
     </div>     
     <!--End of the Particles-->
@@ -77,39 +85,60 @@
                         <div class="jx-title-icon"><i class="line-icon icon-diamond"></i></div>
                         <div class="jx-title-border right"></div>
                     </div>
-                    <div class="jx-title">LEARN MORE ABOUT Torq</div>
-                    <div class="jx-subtitle"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
+                    <div class="jx-title"> ABOUT THE DEPARTMENT</div>
+                    <div class="jx-subtitle"><p>Mechanical Engineering Department was started with 60 students in the year 2010 and within a span of 4 years the strength has gone up to 550. The department has highly qualified, experienced and dedicated teaching and non-teaching faculty, some of them with more than 30 years of experience. There are 6 doctorates and well trained teachers to guide the students in project modeling and project management. Labs with state-of-art-facilities are an added advantage of the student community. LICET is one among the few colleges which has Automation lab to train the students in most advanced machining techniques.</p></div>
                 </div>
                 <div class="row"></div>
                 <div class="jx-servicebox-1">
                     <div class="one-third columns jx-service-item">
                         <div class="service-icon"><i class="line-icon icon-paper-plane"></i></div>
-                        <div class="service-title jx-uppercase"><a href="#">Discussion Board</a></div>
+                        <div class="service-title jx-uppercase"><a href="#">Vison</a></div>
                         <div class="service-title-border"></div>
                         <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            <p>To develop competent and socially responsible mechanical engineers by providing quality education and research facilities.</p>
                         </div>
                     </div>
                     <div class="one-third columns jx-service-item">
                         <div class="service-icon"><i class="line-icon icon-fire"></i></div>
-                        <div class="service-title jx-uppercase"><a href="#">Task Managment</a></div>
+                        <div class="service-title jx-uppercase"><a href="#">Mission</a></div>
                         <div class="service-title-border"></div>
                         <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            <p>Department of Mechanical Engineering is committed<br>
+                                     1. To collaborate with world class technical institutions both national, international and R&D organizations to impart practical training, teaching, research and entrepreneurship in order to prepare globally competitive mechanical engineers.<br>
+                                     2. To provide state of the art infrastructure and research facilities and adopting modern teaching methodologies and training to achieve academic excellence.<br>
+                                     3. To form socially responsible mechanical engineers by inculcating ethics through value based education.</p>
                         </div>
                     </div>
                     <div class="one-third columns jx-service-item">
                         <div class="service-icon"><i class="line-icon icon-lightbulb"></i></div>
-                        <div class="service-title jx-uppercase"><a href="#">Board Keynotes</a></div>
+                        <div class="service-title jx-uppercase"><a href="#">About Torq</a></div>
                         <div class="service-title-border"></div>
                         <div class="service-description">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                            <p>Department of Mechanical Engineering, LICET is organising its nineth National Level Technical Symposium (TORQ 2019) common for all the departments on 17th August, 2019. The Technical Symposium gives knowledge on the current trends in Engineering. The objective of the symposium is to help the students to exhibit their technical skills and to enlighten their technical knowledge. This symposium will pave the way for our budding engineers to transform their dreams in to reality and to build a strong INDIA.</p>
                         </div>
                     </div>
                 </div>
             </div>
     </div>
     <!--End of the Anout Section-->
+    <script>
+            var n = localStorage.getItem('on_load_counter');
+            
+            if (n === null) {
+              n = 543;
+            }
+            n++;
+            
+            localStorage.setItem("on_load_counter", n);
+            
+            nums = n.toString().split('').map(Number);
+            document.getElementById('CounterVisitor').innerHTML = '';
+            for (var i of nums) {
+              document.getElementById('CounterVisitor').innerHTML += '<span class="counter-item">' + i + '</span>';
+            }
+            
+            </script>
+    </a></font></p>
     <!--Start Previous Year Count-->
     <div class="jx-container container-no-margin jx-padding jx-grey-bg ">
             <div class='parallax-no-height jx-tint-black' style='background-image:url(http://janxcode.com/ievent/images/stock-3.jpg);'></div>
@@ -119,8 +148,10 @@
                         <div class="jx-counter-item">
                             <div class="jx-counter-icon"><i class="line-icon icon-paper-plane"></i></div>
                             <div class="jx-counter-info">
-                                <div class="jx-counter-text">Tickets</div>
-                                <div class="jx-counter-number jx-counter-up">2,150</div>
+                                <div class="jx-counter-text">Visitors Count</div>
+                                <div class="jx-counter-number jx-counter-up" id="CounterVisitor">
+                                        <img src="http://hitwebcounter.com/counter/counter.php?page=7124045&style=0001&nbdigits=5&type=page&initCount=0" title="www.hitwebcounter.com" Alt="www.hitwebcounter.com"   border="0" > 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -128,8 +159,8 @@
                         <div class="jx-counter-item">
                         <div class="jx-counter-icon"><i class="line-icon icon-tag"></i></div>
                             <div class="jx-counter-info">
-                                <div class="jx-counter-text">Discussions</div>
-                                <div class="jx-counter-number jx-counter-up">1,500</div>
+                                <div class="jx-counter-text">Number of events conducted</div>
+                                <div class="jx-counter-number jx-counter-up">15</div>
                             </div>
                         </div>
                     </div>
@@ -137,8 +168,8 @@
                         <div class="jx-counter-item">
                             <div class="jx-counter-icon"><i class="line-icon icon-photo"></i></div>
                             <div class="jx-counter-info">
-                                <div class="jx-counter-text">Subscribers</div>
-                                <div class="jx-counter-number jx-counter-up">1,830</div>
+                                <div class="jx-counter-text">Number of Colleges visited</div>
+                                <div class="jx-counter-number jx-counter-up">85</div>
                             </div>
                         </div>
                     </div>
@@ -146,8 +177,8 @@
                         <div class="jx-counter-item">
                             <div class="jx-counter-icon"><i class="line-icon icon-user"></i></div>
                             <div class="jx-counter-info">
-                                <div class="jx-counter-text">Visitors</div>
-                                <div class="jx-counter-number jx-counter-up">1,050</div>
+                                <div class="jx-counter-text">Number of Registrations last year</div>
+                                <div class="jx-counter-number jx-counter-up">1876</div>
                             </div>
                         </div>
                     </div>
@@ -155,732 +186,259 @@
             </div>
     </div>
     <!--End of Previous Year Count-->
+
+<!-- Modal -->
+<div class="modal" id="modal-name">
+        <div class="modal-sandbox"></div>
+        <div class="modal-box">
+          <div class="modal-header">
+            <div class="close-modal">&#10006;</div> 
+            <h1>Simple modal box</h1>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic soluta saepe, atque, iure quidem maiores non dolores, fuga eaque voluptatibus corporis accusantium quas. Eligendi velit eum fugiat eius? Distinctio reiciendis sint error, repellat ut soluta doloremque, accusamus vitae placeat?</p>
+            <p>Laboriosam voluptas, iure rem provident laborum culpa atque fugit inventore sit. Corrupti dolore architecto inventore officia, odit totam voluptatem laboriosam tempore reiciendis, et neque, consequuntur. Non, tenetur? Tempore reprehenderit tenetur nemo asperiores alias commodi assumenda architecto minima numquam repellendus debitis nulla, rerum officia itaque, sunt nihil sequi quod perspiciatis, animi quas voluptates velit aperiam voluptatem.</p>
+            <br />
+            <button class="close-modal">Close!</button>
+          </div>
+        </div>
+      </div>
+      <!-- Aditional Styles -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <!--Start of Schedule-->
-    <div id='schedule' class="jx-container container-no-margin jx-padding jx-grey-bg ">
-        <div class="container ">
-            <div class="jx-section-title-1 jx-dark">
+    <div class="jx-container jx-padding jx-grey-bg" id="schedule">
+            <div class="container">
+                <div class="jx-section-title-1">
                 <div class="jx-pre-title jx-short-border">
                     <div class="jx-title-border left"></div>
-                    <div class="jx-title-icon"><i class="line-icon icon-calendar"></i></div>
+                    <div class="jx-title-icon"><i class="line-icon icon-note"></i></div>
                     <div class="jx-title-border right"></div>
                 </div>
-                <div class="jx-title jx-uppercase">SCHEDULE</div>
-                <div class="jx-subtitle"><p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu</p></div>
+                     <div class="jx-title jx-uppercase">Technical Events</div>
+                </div>
+
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="jx-media-center">
+                <div class="one-third columns">
+                    <div class="image jx-image-wrapper">
+                        <img src="images/paperpresen.jpeg" alt="">
+                        <div class="jx-image-overlay">
+
+                        </div>
+                        <div class="jx-image-hover">
+                                <a href="" class="jx-blog-more openmodale" rel="modal:open"><i class="line-icon icon-doc"></i></a>
+                        </div>
+                       
+                    </div>
+                    <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Paper Presentation</font></div>
+                     <div class="description">A technical paper presentation on topics related to mechanical engineering . Initial level of scrutiny to be done based on abstract </div>
+
+<!-- Modal with tab -->
+
+      
+      <!-- Modal with tab -->
             </div>
-            <div class="shortcode_tab_e jx-white-tab jx-arrow-tab">
-                    <div id="ParentTab">
-                        <ul class="resp-tabs-list parenttab_1">
-                        <li class="resp-tab-item">
-                        <div class="jx-tab-date jx-uppercase">25 Jan</div>
-                        <div class="jx-tab-day jx-uppercase">Day 1</div>
-                        </li>
-                        <li class="resp-tab-item">
-                        <div class="jx-tab-date jx-uppercase">26 Jan</div>
-                        <div class="jx-tab-day jx-uppercase">Day 2</div>
-                        </li>
-                        <li class="resp-tab-item">
-                        <div class="jx-tab-date jx-uppercase">27 Jan</div>
-                        <div class="jx-tab-day jx-uppercase">Day 3</div>
-                        </li>
-                        </ul>
-                    <div class="resp-tabs-container parenttab_1">
-                        <div>
-                            <div id="ChildTab-1">
-                                <ul class="resp-tabs-list jx-subtab childtab_1">
-                                    <li><div class="jx-tab-title">Conference 1</div></li>
-                                    <li><div class="jx-tab-title">Conference 2</div></li>
-                                    <li><div class="jx-tab-title">Conference 3</div></li>
-                                    <li><div class="jx-tab-title">Conference 4</div></li>
-                                </ul>
-                            <div class="resp-tabs-container jx-event-schedule childtab_1">
-                                <div>
-                                    <div data-accordion-group class="jx-accordion-box">
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-10.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head open">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                    <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-5.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head ">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>12:00 - 13:00</span> <i class="fa fa-microphone"></i> <span>Hexal Vanc</span></div>
-                                                    <div class="title" data-control>Donec quam felis, ultricies nec, pellentesque eu, pretium quis</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><i class="fa fa-coffee"></i></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head ">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>13:00 - 13:20</span> <i class="fa fa-microphone"></i> <span></span></div>
-                                                    <div class="title" data-control>Coffee Break</div>
-                                                    <div data-content>
-                                                        <div class="content"><p></p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-6.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head ">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>15:00 - 16:00</span> <i class="fa fa-microphone"></i> <span>Volen Atim</span></div>
-                                                    <div class="title" data-control>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div>
-                                        <div data-accordion-group class="jx-accordion-box">
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-1.jpg" alt=""></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head open">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                        <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                        <div data-content>
-                                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-2.jpg" alt=""></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head ">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                        <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                        <div data-content>
-                                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <div>
-                                <div data-accordion-group class="jx-accordion-box">
-                                    <div class="item">
-                                        <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-3.jpg" alt=""></div>
-                                        </div>
-                                        <div class="right-position">
-                                            <div data-accordion class="head open">
-                                                <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                <div data-content>
-                                                    <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-4.jpg" alt=""></div>
-                                        </div>
-                                        <div class="right-position">
-                                            <div data-accordion class="head ">
-                                                <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                <div data-content>
-                                                    <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-5.jpg" alt=""></div>
-                                        </div>
-                                        <div class="right-position">
-                                            <div data-accordion class="head ">
-                                                <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                <div data-content>
-                                                    <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                                <div>
-                                    <div data-accordion-group class="jx-accordion-box">
-                                        <div class="item">
-                                        <div class="left-position">
-                                        <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-6.jpg" alt=""></div>
-                                        
-                                        </div>
-                                        
-                                        <div class="right-position">
-                                        <div data-accordion class="head open">
-                                        <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                        <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                        
-                                        <div data-content>
-                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                        </div>
-                                        
-                                        </div>
-                                        </div>
-                                        </div>
-                                    
-                                        <div class="item">
-                                        <div class="left-position">
-                                        <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-7.jpg" alt=""></div>
-                                        
-                                        </div>
-                                        
-                                        <div class="right-position">
-                                        <div data-accordion class="head ">
-                                        <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                        <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                        
-                                        <div data-content>
-                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                        </div>
-                                        
-                                        </div>
-                                        </div>
-                                        </div>
-                                    
-                                        <div class="item">
-                                        <div class="left-position">
-                                        <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-8.jpg" alt=""></div>
-                                        
-                                        </div>
-                                        
-                                        <div class="right-position">
-                                        <div data-accordion class="head ">
-                                        <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                        <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                        
-                                        <div data-content>
-                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                        </div>
-                                        
-                                        </div>
-                                        </div>
-                                        </div>
-                                    
-                                        <div class="item">
-                                        <div class="left-position">
-                                        <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-9.jpg" alt=""></div>
-                                        
-                                        </div>
-                                        
-                                        <div class="right-position">
-                                        <div data-accordion class="head ">
-                                        <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                        <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                        
-                                        <div data-content>
-                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                        </div>
-                                        
-                                        </div>
-                                        </div>
-                                        </div>
-                                    
-                                    </div>
-                                </div>
+            
+            <div class="one-third columns">
+            <div class="image jx-image-wrapper">
+            <img src="images/ki.png" alt="">
+            <div class="jx-image-overlay"></div>
+            <div class="jx-image-hover">
+                    <a href="" class="jx-blog-more openmodale" rel="modal:open"><i class="line-icon icon-doc"></i></a>
+            </div>
+            
+            </div>
+            <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Machinist</font></div>
+
+            <div class="title">Machinist</div>
+            
+            
+            <div class="description">Objective type questions on manufacturing and machining and shortlisting top 5 teams.</div>
+            
+            </div>
+            
+            <div class="one-third columns">
+            <div class="image jx-image-wrapper">
+            <img src="images/RC-RACE.png" alt="">
+            <div class="jx-image-overlay"></div>
+            <div class="jx-image-hover">
+            <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+            </div>
+            
+            </div>
+            <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">RC-Race</font></div>
+
+            <div class="title">RC-Race</div>
+                        
+            <div class="description">Participants will bring their robots which will be initialy screened and allowed to move around a basic track. Top 10 shall move in to final round.</div>
+            
+            </div>
+            <div class="one-third columns" style="margin: 10px">
+                    <div class="image jx-image-wrapper">
+                    <img src="images/waterrocket.jpg" alt="">
+                    <div class="jx-image-overlay"></div>
+                    <div class="jx-image-hover">
+                    <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+                    </div>
+                    
+                    </div>
+                    <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Water Rocketry</font></div>
+        
+                    <div class="title">Water Rocket</div>
+                    
+                    
+                    <div class="description">Pressure for the water rocket is conveyed to the participants on spot and the projectile length is calculated.</div>
+                    
+                    </div>
+                    <div class="one-third columns" style="margin: 10px">
+                            <div class="image jx-image-wrapper">
+                            <img src="images/truss.jpg" alt="">
+                            <div class="jx-image-overlay"></div>
+                            <div class="jx-image-hover">
+                            <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
                             </div>
+                            
                             </div>
-                        </div>
-                        <div>
-                                <div id="ChildTab-2">
-                                    <ul class="resp-tabs-list jx-subtab childtab_1">
-                                        <li><div class="jx-tab-title">Conference 1</div></li>
-                                        <li><div class="jx-tab-title">Conference 2</div></li>
-                                        <li><div class="jx-tab-title">Conference 3</div></li>
-                                        <li><div class="jx-tab-title">Conference 4</div></li>
-                                    </ul>
-                                <div class="resp-tabs-container jx-event-schedule childtab_1">
-                                    <div>
-                                        <div data-accordion-group class="jx-accordion-box">
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-10.jpg" alt=""></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head open">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                        <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                        <div data-content>
-                                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-5.jpg" alt=""></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head ">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>12:00 - 13:00</span> <i class="fa fa-microphone"></i> <span>Hexal Vanc</span></div>
-                                                        <div class="title" data-control>Donec quam felis, ultricies nec, pellentesque eu, pretium quis</div>
-                                                        <div data-content>
-                                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><i class="fa fa-coffee"></i></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head ">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>13:00 - 13:20</span> <i class="fa fa-microphone"></i> <span></span></div>
-                                                        <div class="title" data-control>Coffee Break</div>
-                                                        <div data-content>
-                                                            <div class="content"><p></p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-6.jpg" alt=""></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head ">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>15:00 - 16:00</span> <i class="fa fa-microphone"></i> <span>Volen Atim</span></div>
-                                                        <div class="title" data-control>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis</div>
-                                                        <div data-content>
-                                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Truss Building</font></div>
+                
+                            <div class="title">Water Rocket</div>
+                            
+                            
+                            <div class="description">Quiz based on basics of Strength Of Materials</div>
+                            
+                            </div>
+
+                            <div class="one-third columns" style="margin: 10px">
+                                    <div class="image jx-image-wrapper">
+                                    <img src="https://wallpapercave.com/wp/wp1996170.jpg" alt="">
+                                    <div class="jx-image-overlay"></div>
+                                    <div class="jx-image-hover">
+                                    <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
                                     </div>
-                                        <div>
-                                            <div data-accordion-group class="jx-accordion-box">
-                                                <div class="item">
-                                                    <div class="left-position">
-                                                        <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-1.jpg" alt=""></div>
-                                                    </div>
-                                                    <div class="right-position">
-                                                        <div data-accordion class="head open">
-                                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                            <div data-content>
-                                                                <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="left-position">
-                                                        <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-2.jpg" alt=""></div>
-                                                    </div>
-                                                    <div class="right-position">
-                                                        <div data-accordion class="head ">
-                                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                            <div data-content>
-                                                                <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <div>
-                                    <div data-accordion-group class="jx-accordion-box">
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-3.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head open">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                    <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-4.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head ">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                    <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-5.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head ">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                    <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    
                                     </div>
+                                    <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Marketech</font></div>
+                        
+                                    <div class="title">Marketech</div>
+                                    
+                                    
+                                    <div class="description">Testing two of the most important skills an Engineer is expected to possess in the current scenario. It tests you on your comprehension of the concepts of
+                                            science and engineering
+                                            .</div>
+                                    
                                     </div>
-                                    <div>
-                                        <div data-accordion-group class="jx-accordion-box">
-                                            <div class="item">
-                                            <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-6.jpg" alt=""></div>
-                                            
-                                            </div>
-                                            
-                                            <div class="right-position">
-                                            <div data-accordion class="head open">
-                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                            
-                                            <div data-content>
-                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
+                                    <div class="one-third columns" style="margin: 10px">
+                                            <div class="image jx-image-wrapper">
+                                            <img src="images/chennai.jpg" alt="">
+                                            <div class="jx-image-overlay"></div>
+                                            <div class="jx-image-hover">
+                                            <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
                                             </div>
                                             
                                             </div>
-                                            </div>
-                                            </div>
-                                        
-                                            <div class="item">
-                                            <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-7.jpg" alt=""></div>
+                                            <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Namma Chennai</font></div>
+                                
+                                            <div class="title">Namma Chennai</div>
+                                            
+                                            
+                                            <div class="description">3 combined events which comprise of a quiz as first round, design as senond round and energy crisis problem statment as the final round. </div>
                                             
                                             </div>
-                                            
-                                            <div class="right-position">
-                                            <div data-accordion class="head ">
-                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                            
-                                            <div data-content>
-                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                            </div>
-                                            
-                                            </div>
-                                            </div>
-                                            </div>
-                                        
-                                            <div class="item">
-                                            <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-8.jpg" alt=""></div>
-                                            
-                                            </div>
-                                            
-                                            <div class="right-position">
-                                            <div data-accordion class="head ">
-                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                            
-                                            <div data-content>
-                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                            </div>
-                                            
-                                            </div>
-                                            </div>
-                                            </div>
-                                        
-                                            <div class="item">
-                                            <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-9.jpg" alt=""></div>
-                                            
-                                            </div>
-                                            
-                                            <div class="right-position">
-                                            <div data-accordion class="head ">
-                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                            
-                                            <div data-content>
-                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                            </div>
-                                            
-                                            </div>
-                                            </div>
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                        </div>
-                        <div>
-                                <div id="ChildTab-3">
-                                    <ul class="resp-tabs-list jx-subtab childtab_1">
-                                        <li><div class="jx-tab-title">Conference 1</div></li>
-                                        <li><div class="jx-tab-title">Conference 2</div></li>
-                                        <li><div class="jx-tab-title">Conference 3</div></li>
-                                        <li><div class="jx-tab-title">Conference 4</div></li>
-                                    </ul>
-                                <div class="resp-tabs-container jx-event-schedule childtab_1">
-                                    <div>
-                                        <div data-accordion-group class="jx-accordion-box">
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-10.jpg" alt=""></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head open">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                        <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                        <div data-content>
-                                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-5.jpg" alt=""></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head ">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>12:00 - 13:00</span> <i class="fa fa-microphone"></i> <span>Hexal Vanc</span></div>
-                                                        <div class="title" data-control>Donec quam felis, ultricies nec, pellentesque eu, pretium quis</div>
-                                                        <div data-content>
-                                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><i class="fa fa-coffee"></i></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head ">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>13:00 - 13:20</span> <i class="fa fa-microphone"></i> <span></span></div>
-                                                        <div class="title" data-control>Coffee Break</div>
-                                                        <div data-content>
-                                                            <div class="content"><p></p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="left-position">
-                                                    <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-6.jpg" alt=""></div>
-                                                </div>
-                                                <div class="right-position">
-                                                    <div data-accordion class="head ">
-                                                        <div class="date"><i class="fa fa-clock-o"></i> <span>15:00 - 16:00</span> <i class="fa fa-microphone"></i> <span>Volen Atim</span></div>
-                                                        <div class="title" data-control>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis</div>
-                                                        <div data-content>
-                                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                        <div>
-                                            <div data-accordion-group class="jx-accordion-box">
-                                                <div class="item">
-                                                    <div class="left-position">
-                                                        <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-1.jpg" alt=""></div>
-                                                    </div>
-                                                    <div class="right-position">
-                                                        <div data-accordion class="head open">
-                                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                            <div data-content>
-                                                                <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="left-position">
-                                                        <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-2.jpg" alt=""></div>
-                                                    </div>
-                                                    <div class="right-position">
-                                                        <div data-accordion class="head ">
-                                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                            <div data-content>
-                                                                <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <div>
-                                    <div data-accordion-group class="jx-accordion-box">
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-3.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head open">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                    <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-4.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head ">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                    <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="left-position">
-                                                <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-5.jpg" alt=""></div>
-                                            </div>
-                                            <div class="right-position">
-                                                <div data-accordion class="head ">
-                                                    <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                                    <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                                    <div data-content>
-                                                        <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    </div>
-                                    <div>
-                                        <div data-accordion-group class="jx-accordion-box">
-                                            <div class="item">
-                                            <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-6.jpg" alt=""></div>
-                                            
-                                            </div>
-                                            
-                                            <div class="right-position">
-                                            <div data-accordion class="head open">
-                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                            
-                                            <div data-content>
-                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                            </div>
-                                            
-                                            </div>
-                                            </div>
-                                            </div>
-                                        
-                                            <div class="item">
-                                            <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-7.jpg" alt=""></div>
-                                            
-                                            </div>
-                                            
-                                            <div class="right-position">
-                                            <div data-accordion class="head ">
-                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                            
-                                            <div data-content>
-                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                            </div>
-                                            
-                                            </div>
-                                            </div>
-                                            </div>
-                                        
-                                            <div class="item">
-                                            <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-8.jpg" alt=""></div>
-                                            
-                                            </div>
-                                            
-                                            <div class="right-position">
-                                            <div data-accordion class="head ">
-                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                            
-                                            <div data-content>
-                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                            </div>
-                                            
-                                            </div>
-                                            </div>
-                                            </div>
-                                        
-                                            <div class="item">
-                                            <div class="left-position">
-                                            <div class="image"><img src="http://ievent.janxcode.com/wp-content/uploads/2015/09/team-9.jpg" alt=""></div>
-                                            
-                                            </div>
-                                            
-                                            <div class="right-position">
-                                            <div data-accordion class="head ">
-                                            <div class="date"><i class="fa fa-clock-o"></i> <span>8:00 - 12:00</span> <i class="fa fa-microphone"></i> <span>John Doe</span></div>
-                                            <div class="title" data-control>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                                            
-                                            <div data-content>
-                                            <div class="content"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p></div>
-                                            </div>
-                                            
-                                            </div>
-                                            </div>
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
+            </div>
+            <div class="row"></div>
+            <div class="row"></div>
+           
+            
+            </div>
+            </div>
+    <!--End of Schedule-->
+    <!--Start of Non Technical Events-->
+    <div class="jx-container jx-padding jx-grey-bg" id="schedule">
+            <div class="container">
+                <div class="jx-section-title-1">
+                <div class="jx-pre-title jx-short-border">
+                    <div class="jx-title-border left"></div>
+                    <div class="jx-title-icon"><i class="line-icon icon-note"></i></div>
+                    <div class="jx-title-border right"></div>
+                </div>
+                     <div class="jx-title jx-uppercase">Non Technical Events</div>
+                </div>
+
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="jx-media-center">
+                <div class="one-third columns">
+                    <div class="image jx-image-wrapper">
+                        <img src="images/crime.jpg" alt="">
+                        <div class="jx-image-overlay"></div>
+                        <div class="jx-image-hover">
                         </div>
                     </div>
-                    <div class="mb60"></div>
+                    <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Crime Scene Investigation</font></div>
+                    <div class="title">Crime Scene Investigation</div>
+                    <div class="description">The teams would be briefed about the event, provided time to investigate the crime scene and the suspects.The deduction should be explained with details and supported by evidence.</div>
                 </div>
+            
+            <div class="one-third columns">
+            <div class="image jx-image-wrapper">
+            <img src="images/jocker.jpg" alt="">
+            <div class="jx-image-overlay"></div>
+            <div class="jx-image-hover">
+            <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
             </div>
-        </div>
-    </div>
-    <!--End of Schedule-->
+            
+            </div>
+            <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Gotham (Mafia)</font></div>
+
+            <div class="title">Gotham (Mafia)</div>
+            
+            
+            <div class="description">It is a mind game based on the city of gotham.. 6 to 30 number of participants.can be accomadated  The rules will be explained on spot. The host's decision will be final. </div>
+            
+            </div>
+            
+            <div class="one-third columns">
+            <div class="image jx-image-wrapper">
+            <img src="https://image.shutterstock.com/image-photo/linking-entities-networking-social-media-260nw-588813473.jpg" alt="">
+            <div class="jx-image-overlay"></div>
+            <div class="jx-image-hover">
+            <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+            </div>
+            
+            </div>
+            <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Connections</font></div>
+
+            <div class="title">Connections</div>
+                        
+            <div class="description">Teams must answer the questions by linking the images. One round will be technical related questions and remaining two rounds will be non technical.</div>
+            
+            </div>
+            <div class="one-third columns" style="margin: 10px">
+                    <div class="image jx-image-wrapper">
+                    <img src="https://s1.thcdn.com/productimg/1600/1600/11778938-2094607976619602.jpg" alt="">
+                    <div class="jx-image-overlay"></div>
+                    <div class="jx-image-hover">
+                    <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+                    </div>
+                    
+                    </div>
+                    <div class="service-title jx-uppercase" style="margin: 10px"><font size="6" color="black">Fifa</font></div>
+        
+                    <div class="title">Fifa</div>
+                                        
+                    <div class="description">There wont  be different rounds, it will be lie quaterfinal semifinal and finals</div>
+                    
+                    </div>
+                    
+            </div>
+            <div class="row"></div>
+            <div class="row"></div>
+           
+            
+            </div>
+            </div>
+    <!--End of non technical events-->
     <!--Start of the Gallery Section-->
     <div id='gallery' class="jx-container container-no-margin jx-padding jx-grey-bg ">
             <div class="container ">
@@ -891,194 +449,269 @@
                     <div class="jx-title-border right"></div>
                 </div>
                 <div class="jx-title jx-uppercase">GALLERY</div>
-                <div class="jx-subtitle"><p>Viverra dignissim elit. Maecenas in orci nisl. Cras et nisl aliquet, mollis purus ac, vestibulum metus. Suspendisse arcu ex, condimentum vehicula tempus eget, varius ut tortor</p></div>
             </div>
             <div class="jx-grid-item grid-item-height2 grid-item-width2">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_23-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_23" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/ex.JPG" class="attachment-port-1 wp-post-image" alt="portfolio_23" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_23-1024x681.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="jx-grid-item">
-                <div class="jx-date-box">
-                    <div class="jx-date">25 Jan</div>
-                    <div class="jx-day">Day 1</div>
-                </div>
-            </div>
-            <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_21-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_21" />
-                    <div class="jx-image-overlayer"></div>
-                    <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_21-1024x681.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/ex.JPG" data-rel="prettyPhoto" style="image-rendering: -webkit-optimize-contrast;"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
             <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_20-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_20" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/2.JPG" class="attachment-port-1 wp-post-image" alt="portfolio_21" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_20-1024x681.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/2.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
             <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_19-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_19" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/3.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_20" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_19-1024x682.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/3.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
             <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_18-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_18" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/4.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_19" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_18-1024x682.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/4.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="jx-grid-item">
-                <div class="jx-date-box">
-                    <div class="jx-date">26 Jan</div>
-                    <div class="jx-day">Day 2</div>
-                </div>
-            </div>
-            <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_16-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_16" />
+    
+             <div class="jx-grid-item "> 
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/5.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_18" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_16-1024x681.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/5.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
             <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_15-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_15" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/6.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_17" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_15-1024x681.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/6.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
             <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_14-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_14" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/7.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_15" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_14-1024x682.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="jx-grid-item">
-                <div class="jx-date-box">
-                    <div class="jx-date">27 Jan</div>
-                    <div class="jx-day">Day 3</div>
-                </div>
-            </div>
-            <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_22-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_22" />
-                    <div class="jx-image-overlayer"></div>
-                    <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_22-1024x681.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/7.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
             <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_21-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_21" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/8.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_14" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_21-1024x681.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/8.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
             <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_20-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_20" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/9.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_22" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_20-1024x681.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/9.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
             <div class="jx-grid-item ">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_18-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_18" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/10.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_21" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_18-1024x682.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/10.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
+            <div class="jx-grid-item ">
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/11.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_20" />
+                    <div class="jx-image-overlayer"></div>
+                    <div class="jx-image-hover">
+                        <a herf="images/11.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="jx-grid-item ">
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/12.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_18" />
+                    <div class="jx-image-overlayer"></div>
+                    <div class="jx-image-hover">
+                        <a herf="images/12.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                    </div>
+                </div>
+            </div> -->
             <div class="jx-grid-item grid-item-width2-only">
-                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_19-400x400.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_19" />
+                <div class="jx-image jx-image-wrapper"><img width="400" height="400" src="images/13.jpg" class="attachment-port-1 wp-post-image" alt="portfolio_19" />
                     <div class="jx-image-overlayer"></div>
                     <div class="jx-image-hover">
-                        <a herf="http://ievent.janxcode.com/wp-content/uploads/2015/09/portfolio_19-1024x682.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
+                        <a herf="images/13.jpg" data-rel="prettyPhoto"><i class="fa fa-expand"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!--End of Gallery Section-->
-    <div class="jx-container">
-            <div class="jx-google-map">
-                <div id="map" class="jx-map" style="height:400px;"></div>
+    <!--Start of Contact Us-->
+    <div id='contact' class="jx-container container-no-margin jx-padding jx-black-bg ">
+
+
+            <div class="container ">
+            <div class="jx-speaker">
+            <div class="jx-speaker-item jx-speaker-box-content">
+            <div class="jx-title jx-uppercase">Contact us</div>
+            <div class="jx-hr-title"></div>
+            <p>Get in Touch with our team</p>
+            <p style="font-size: 20px">President        - 9566179377</p>
+            <p style="font-size: 20px">Vice President   - 7550263120</p>
+            <p style="font-size: 20px">Student Co-ordinator   - 9962098210</p>
+            <p style="font-size: 20px">General Secretary   - 8903654329</p>
+            <p style="font-size: 20px">Email to   - torq@licet.ac.in</p>
+
+
             </div>
-     </div>
+            <div class="jx-speaker-item">
+                    <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/sir.JPG" class="attachment-speaker-image wp-post-image" alt="team-1" />
+                    <div class="jx-speaker-overlayer"></div>
+                    <div class="jx-image-hover-info">
+                    <div class="jx-speaker-name">Sathish E - Asst. professor</div>
+                    <div class="jx-speaker-pos">Student Co ordinator</div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="jx-speaker-item">
+                            <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/kiko.png" class="attachment-speaker-image wp-post-image" alt="team-1" />
+                            <div class="jx-speaker-overlayer"></div>
+                            <div class="jx-image-hover-info">
+                            <div class="jx-speaker-name">Antony Kiko</div>
+                            <div class="jx-speaker-pos">President</div>
+                            </div>
+                            </div>
+                            </div>
+            <div class="jx-speaker-item">
+            <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/kiko.png" class="attachment-speaker-image wp-post-image" alt="team-1" />
+            <div class="jx-speaker-overlayer"></div>
+            <div class="jx-image-hover-info">
+            <div class="jx-speaker-name">Antony Kiko</div>
+            <div class="jx-speaker-pos">President</div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="jx-speaker-item">
+            <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/anto.jpg" class="attachment-speaker-image wp-post-image" alt="team-7" />
+            <div class="jx-speaker-overlayer"></div>
+            <div class="jx-image-hover-info">
+            <div class="jx-speaker-name">Prakash Anto</div>
+            <div class="jx-speaker-pos">Vice President</div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="jx-speaker-item">
+            <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/jerrix.jpg" class="attachment-speaker-image wp-post-image" alt="team-9" />
+            <div class="jx-speaker-overlayer"></div>
+            <div class="jx-image-hover-info">
+            <div class="jx-speaker-name">Jerrix Rajam</div>
+            <div class="jx-speaker-pos">General Secretary</div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="jx-speaker-item">
+            <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/sa.png" class="attachment-speaker-image wp-post-image" alt="team-8" />
+            <div class="jx-speaker-overlayer"></div>
+            <div class="jx-image-hover-info">
+            <div class="jx-speaker-name">Sanju</div>
+            <div class="jx-speaker-pos">Public Relationship Officer</div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="jx-speaker-item">
+            <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/bes.jpg" class="attachment-speaker-image wp-post-image" alt="team-6" />
+            <div class="jx-speaker-overlayer"></div>
+            <div class="jx-image-hover-info">
+            <div class="jx-speaker-name">Desmond Nirmalraj</div>
+            <div class="jx-speaker-pos">Treasurer</div>
+            </div>
+            </div>
+            </div>
+            
+            <div class="jx-speaker-item">
+            <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/su.jpg" class="attachment-speaker-image wp-post-image" alt="team-5" />
+            <div class="jx-speaker-overlayer"></div>
+            <div class="jx-image-hover-info">
+            <div class="jx-speaker-name">Felix Sebas</div>
+            <div class="jx-speaker-pos">Joint Secretary</div>
+            </div>
+             </div>
+            </div>
+            
+            <div class="jx-speaker-item">
+            <div class="jx-speaker-photo jx-image-wrapper"><img width="234" height="189" src="images/shefin.jpg" class="attachment-speaker-image wp-post-image" alt="team-4" />
+            <div class="jx-speaker-overlayer"></div>
+            <div class="jx-image-hover-info">
+            <div class="jx-speaker-name">Shefin</div>
+            <div class="jx-speaker-pos">Joint Secretary</div>
+            </div>
+            </div>
+            </div>
+        
+            </div>
+            </div>
+            </div>
+    <!--End of Contack Us-->
+    <div class="mapouter" id="contact3"><div class="gmap_canvas"><iframe width="100%" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=loyola%20icam%20college%20&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net">tree layout wordpress themes</a></div>
+    <style>.mapouter{text-align:right;height:400px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style></div>
+    </div></script>
 
-<div class="jx-summary-info">
-        <div class="container">
-            <ul class="jx-summary-box">
-                <li class="one-third columns">
-                    <div class="jx-location-event">
-                        <i class="line-icon icon-location"></i>
-                        <div class="jx-info">
-                            <div class="jx-bar-head">1.25km</div>
-                            <div class="jx-bar-title">Chennai-34</div>
-                        </div>
-                    </div>
-                </li>
-                <li class="one-third columns">
-                    <div class="jx-hotline-event">
-                        <i class="line-icon icon-globe"></i>
-                        <div class="jx-info">
-                            <div class="jx-bar-head">80081 80121</div>
-                        </div>
-                    </div>
-                </li>
-                <li class="one-third columns">
-                    <div class="jx-subscribe-event">
-                        <i class="line-icon icon-globe"></i>
-                        <div class="jx-info">
-                            <div class="jx-bar-head">Email</div>
-                            <div class="jx-bar-title">some@some.com</div>
-
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
     <!--Start of Footer-->
     <footer class="jx-footer-section jx-container">
         <div class="jx-post-footer">
             <div class="container">
                 <div class="jx-footer-social">
                     <ul>
-                        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="http://www.googleplus.com/"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/torq2k19"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/torq2k19"><i class="fa fa-facebook"></i></a></li>
+
+
                     </ul>
                 </div>
                 <div class="jx-footer-copyright">
-                    Copyrights &copy; 2019 - Design by <a href="http://www.loujibrotherstest.me">Loujibrothers</a>
+                    Copyrights &copy; Mechanical Department 2019 - Design by <a href="http://www.loujibrotherstest.me">Joan Louji</a>
                 </div>
             </div>
         </div>
-                    
+        <a href="http://www.hitwebcounter.com" target="_blank">
+            
+            </a>                                        <br/>
+                                                    <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="" 
+                                                    target="_blank" style="font-family: ; 
+                                                    font-size: px; color: #; text-decoration:  ;">                                       </>
+                                                    </a>   
+        <p></p>      
     </footer> 
-    <!--End of Footer-->
-    <!--Scripts-->
+    <!-- Modal -->
+
+<!-- Modal -->
+
+      
+
+<!-- Aditional Styles -->
+
+      <!-- Modal -->
+
+          <!-- /Modal -->
+          
+
+     
             <script type="text/javascript" src="vendor/jquery.js"></script>
             <script type="text/javascript" src="js/plugins.js"></script>
             <script type="text/javascript" src="vendor/respond.js"></script>
@@ -1086,47 +719,233 @@
             <script type="text/javascript" src="vendor/prettyPhoto/jquery.prettyPhoto.js"></script>
             <script type="text/javascript" src="vendor/flexslider/jquery.flexslider.js"></script>
             <script type='text/javascript' src="vendor/form-validator/jquery.form-validator.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
             <script src="js/theme.js"></script>
             <script src="particles.js"></script>
             <script src="js/app.js"></script>
+    
             <script type="text/javascript">
-                        google.maps.event.addDomListener(window, 'load', init);
-                        function init() {
-                            var mapOptions = {
-                                scrollwheel: false,
-                                zoom: 11,
-                                center: new google.maps.LatLng(40.6700, -73.9400), 
-                                styles: [{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#d3d3d3"}]},{"featureType":"transit","stylers":[{"color":"#808080"},{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#b3b3b3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"weight":1.8}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#d7d7d7"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ebebeb"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#a7a7a7"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#efefef"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#696969"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#737373"}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#d6d6d6"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#dadada"}]}]
-                            };
-                            var mapElement = document.getElementById('map');
-                            var map = new google.maps.Map(mapElement, mapOptions);
-                            var marker = new google.maps.Marker({
-                                position: new google.maps.LatLng(40.6700, -73.8400),
-                                icon: 'images/map-marker.png',
-                                map: map,
-                                title: 'Loujibrothers'
-                            });
-                        }
-            </script>
+                  function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyavzlZH2kq9gC7d0ACafo18Tp4jE5WIw&callback=initMap">
+    </script>
             <script>
-                    var count_particles, stats, update;
-                    stats = new Stats;
-                    stats.setMode(0);
-                    stats.domElement.style.position = 'absolute';
-                    stats.domElement.style.left = '0px';
-                    stats.domElement.style.top = '0px';
-                    document.body.appendChild(stats.domElement);
-                    count_particles = document.querySelector('.js-count-particles');
-                    update = function() {
-                      stats.begin();
-                      stats.end();
-                      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-                        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-                      }
-                      requestAnimationFrame(update);
-                    };
-                    requestAnimationFrame(update);
+            var Modal = (function() {
+	var trigger = $qsa(".modal__trigger"); // what you click to activate the modal
+	var modals = $qsa(".modal"); // the entire modal (takes up entire window)
+	var modalsbg = $qsa(".modal__bg"); // the entire modal (takes up entire window)
+	var content = $qsa(".modal__content"); // the inner content of the modal
+	var closers = $qsa(".modal__close"); // an element used to close the modal
+	var w = window;
+	var isOpen = false;
+	var contentDelay = 400; // duration after you click the button and wait for the content to show
+	var len = trigger.length;
+
+	// make it easier for yourself by not having to type as much to select an element
+	function $qsa(el) {
+		return document.querySelectorAll(el);
+	}
+
+	var getId = function(event) {
+		event.preventDefault();
+		var self = this;
+		// get the value of the data-modal attribute from the button
+		var modalId = self.dataset.modal;
+		var len = modalId.length;
+		// remove the '#' from the string
+		var modalIdTrimmed = modalId.substring(1, len);
+		// select the modal we want to activate
+		var modal = document.getElementById(modalIdTrimmed);
+		// execute function that creates the temporary expanding div
+		makeDiv(self, modal);
+	};
+
+	var makeDiv = function(self, modal) {
+		var fakediv = document.getElementById("modal__temp");
+
+		/**
+		 * if there isn't a 'fakediv', create one and append it to the button that was
+		 * clicked. after that execute the function 'moveTrig' which handles the animations.
+		 */
+
+		if (fakediv === null) {
+			var div = document.createElement("div");
+			div.id = "modal__temp";
+			self.appendChild(div);
+			moveTrig(self, modal, div);
+		}
+	};
+
+	var moveTrig = function(trig, modal, div) {
+		var trigProps = trig.getBoundingClientRect();
+		var m = modal;
+		var mProps = m.querySelector(".modal__content").getBoundingClientRect();
+		var transX, transY, scaleX, scaleY;
+		var xc = w.innerWidth / 2;
+		var yc = w.innerHeight / 2;
+
+		// this class increases z-index value so the button goes overtop the other buttons
+		trig.classList.add("modal__trigger--active");
+
+		// these values are used for scale the temporary div to the same size as the modal
+		scaleX = mProps.width / trigProps.width;
+		scaleY = mProps.height / trigProps.height;
+
+		scaleX = scaleX.toFixed(3); // round to 3 decimal places
+		scaleY = scaleY.toFixed(3);
+
+		// these values are used to move the button to the center of the window
+		transX = Math.round(xc - trigProps.left - trigProps.width / 2);
+		transY = Math.round(yc - trigProps.top - trigProps.height / 2);
+
+		// if the modal is aligned to the top then move the button to the center-y of the modal instead of the window
+		if (m.classList.contains("modal--align-top")) {
+			transY = Math.round(
+				mProps.height / 2 + mProps.top - trigProps.top - trigProps.height / 2
+			);
+		}
+
+		// translate button to center of screen
+		trig.style.transform = "translate(" + transX + "px, " + transY + "px)";
+		trig.style.webkitTransform = "translate(" + transX + "px, " + transY + "px)";
+		// expand temporary div to the same size as the modal
+		div.style.transform = "scale(" + scaleX + "," + scaleY + ")";
+		div.style.webkitTransform = "scale(" + scaleX + "," + scaleY + ")";
+
+		window.setTimeout(function() {
+			window.requestAnimationFrame(function() {
+				open(m, div);
+			});
+		}, contentDelay);
+	};
+
+	var open = function(m, div) {
+		if (!isOpen) {
+			// select the content inside the modal
+			var content = m.querySelector(".modal__content");
+			// reveal the modal
+			m.classList.add("modal--active");
+			// reveal the modal content
+			content.classList.add("modal__content--active");
+
+			/**
+			 * when the modal content is finished transitioning, fadeout the temporary
+			 * expanding div so when the window resizes it isn't visible ( it doesn't
+			 * move with the window).
+			 */
+
+			content.addEventListener("transitionend", hideDiv, false);
+
+			isOpen = true;
+		}
+
+		function hideDiv() {
+			// fadeout div so that it can't be seen when the window is resized
+			div.style.opacity = "0";
+			content.removeEventListener("transitionend", hideDiv, false);
+		}
+	};
+
+	var close = function(event) {
+		event.preventDefault();
+		event.stopImmediatePropagation();
+
+		var target = event.target;
+		var div = document.getElementById("modal__temp");
+
+		/**
+		 * make sure the modal__bg or modal__close was clicked, we don't want to be able to click
+		 * inside the modal and have it close.
+		 */
+
+		if (
+			(isOpen && target.classList.contains("modal__bg")) ||
+			target.classList.contains("modal__close")
+		) {
+			// make the hidden div visible again and remove the transforms so it scales back to its original size
+			div.style.opacity = "1";
+			div.removeAttribute("style");
+
+			/**
+			 * iterate through the modals and modal contents and triggers to remove their active classes.
+			 * remove the inline css from the trigger to move it back into its original position.
+			 */
+
+			for (var i = 0; i < len; i++) {
+				modals[i].classList.remove("modal--active");
+				content[i].classList.remove("modal__content--active");
+				trigger[i].style.transform = "none";
+				trigger[i].style.webkitTransform = "none";
+				trigger[i].classList.remove("modal__trigger--active");
+			}
+
+			// when the temporary div is opacity:1 again, we want to remove it from the dom
+			div.addEventListener("transitionend", removeDiv, false);
+
+			isOpen = false;
+		}
+
+		function removeDiv() {
+			setTimeout(function() {
+				window.requestAnimationFrame(function() {
+					// remove the temp div from the dom with a slight delay so the animation looks good
+					div.remove();
+				});
+			}, contentDelay - 50);
+		}
+	};
+
+	var bindActions = function() {
+		for (var i = 0; i < len; i++) {
+			trigger[i].addEventListener("click", getId, false);
+			closers[i].addEventListener("click", close, false);
+			modalsbg[i].addEventListener("click", close, false);
+		}
+	};
+
+	var init = function() {
+		bindActions();
+	};
+
+	return {
+		init: init
+	};
+})();
+
+Modal.init();
+
+          
             </script>
+         <script>
+        $(".modal-trigger").click(function(e){
+  e.preventDefault();
+  dataModal = $(this).attr("data-modal");
+  $("#" + dataModal).css({"display":"block"});
+  // $("body").css({"overflow-y": "hidden"}); //Prevent double scrollbar.
+});
+
+$(".close-modal, .modal-sandbox").click(function(){
+  $(".modal").css({"display":"none"});
+  // $("body").css({"overflow-y": "auto"}); //Prevent double scrollbar.
+});
+                </script>
+
     <!--End of Script-->
     </body>
 </html>
